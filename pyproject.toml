@@ -1,0 +1,19 @@
+[project]
+name = "py3dbl"
+version = "1.0.0"
+authors = [
+  { name="Giuliano Pardini", email="giulianpardini@gmail.com" },
+]
+description = "A powerful tool for 3D bin packing problem solving"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+
+[project.urls]
+Homepage = "https://github.com/Giulian7/py3dbl"
+Issues = "https://github.com/Giulian7/py3dbl/issues"
