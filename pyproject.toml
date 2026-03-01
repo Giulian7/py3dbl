@@ -1,12 +1,18 @@
 [project]
 name = "py3dbl"
-version = "1.0.0"
+version = "1.0.1"
 authors = [
   { name="Giuliano Pardini", email="giulianpardini@gmail.com" },
 ]
 description = "A powerful tool for 3D bin packing problem solving"
 readme = "README.md"
 requires-python = ">=3.9"
+dependencies = [
+  narwhals==2.17.0
+  packaging==26.0
+  pip==26.0.1
+  plotly==6.5.2
+]
 classifiers = [
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",

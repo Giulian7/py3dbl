@@ -1,6 +1,13 @@
 LICENSE
 README.md
 pyproject.toml
+src/py3dbl/Algorithms.py
+src/py3dbl/Bin.py
+src/py3dbl/Constraints.py
+src/py3dbl/Decimal.py
+src/py3dbl/Item.py
+src/py3dbl/Packer.py
+src/py3dbl/Space.py
 src/py3dbl/__init__.py
 src/py3dbl/benchmark.py
 src/py3dbl/benchmarking.py
@@ -11,10 +18,3 @@ src/py3dbl.egg-info/PKG-INFO
 src/py3dbl.egg-info/SOURCES.txt
 src/py3dbl.egg-info/dependency_links.txt
 src/py3dbl.egg-info/top_level.txt
-src/py3dbl_core/Algorithms.py
-src/py3dbl_core/Bin.py
-src/py3dbl_core/Constraints.py
-src/py3dbl_core/Decimal.py
-src/py3dbl_core/Item.py
-src/py3dbl_core/Packer.py
-src/py3dbl_core/Space.py
