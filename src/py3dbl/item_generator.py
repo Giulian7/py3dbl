@@ -1,7 +1,6 @@
 from decimal import Decimal
 from random import random,randint,gauss
-from .Item import Item
-from .Space import Vector3, Volume
+from py3dbl_core import Item, Volume, Vector3
 
 def item_generator(width : tuple[Decimal,Decimal] , height : tuple[Decimal,Decimal], depth : tuple[Decimal,Decimal], weight : tuple[Decimal,Decimal], priority_range : tuple[int,int] = (0,0), batch_size : int = 1, use_gaussian_distrib : bool = False, decimals : int = 3) -> Item|list[Item]:
     """

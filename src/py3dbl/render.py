@@ -1,7 +1,5 @@
 import plotly.graph_objects as go
-from .Bin import Bin
-from .Item import Item
-from .Space import Volume
+from py3dbl_core import Bin, Item, Volume
 
 COLORS = ["cyan","red","yellow","blue","green","brown","magenta"]
 BORDER_WIDTH = 1

@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: py3dbl
-Version: 1.0.0
+Version: 1.0.2
 Summary: A powerful tool for 3D bin packing problem solving
 Author-email: Giuliano Pardini <giulianpardini@gmail.com>
 License-Expression: MIT
@@ -11,15 +11,19 @@ Classifier: Operating System :: OS Independent
 Requires-Python: >=3.9
 Description-Content-Type: text/markdown
 License-File: LICENSE
+Requires-Dist: narwhals==2.17.0
+Requires-Dist: packaging==26.0
+Requires-Dist: pip==26.0.1
+Requires-Dist: plotly==6.5.2
 Dynamic: license-file
 
 # About this project
 
-	This project is a complete  
+	This project is a complete suite for solving 3D bin packing problem.
+	Evolved from enzoruiz's py3dbl.
 
 # How to run and test
 
 	1. Clone this repository on your machine
 	2. Create a virtual enviroment (e.g. *python3 -m venv "enviroment_name"*)
 	3. Install the required packages as of *requirements.txt* (e.g. *pip install -r requirements.txt*)
-	4. Execute *test.ipynb* and enjoy the visit (to execute a jupyter notebook simply run *jupyter notebook "notebook_name"*)
